@@ -1,0 +1,17 @@
+{
+    "name": "vending-machine-app",
+    "version": "1.0.0",
+    "description": "Máquina Exprendedora de Dulces",
+    "main": "dist/app.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/app.js",
+        "dev": "tsc --watch & node dist/app.js"
+    },
+    "keywords": [],
+    "author": "Dylan Gutierrez",
+    "license": "@Yo",
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
